@@ -8,6 +8,10 @@ public class User {
 	private String name;
 	private Date date;
 	
+	protected User() {
+		// manually define a default constructor
+	}
+	
 	public User(Integer id, String name, Date date) {
 		super();
 		this.id = id;
